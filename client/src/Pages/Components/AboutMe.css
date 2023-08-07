@@ -1,0 +1,19 @@
+.aboutMe {
+  display: flex;
+  justify-content: center;
+}
+.aboutMe .imgMyself {
+  width: 35%;
+}
+.aboutMe .aboutMeBlurb {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 20px;
+}
+.aboutMe .aboutMeBlurb .aboutMeParagraph {
+  font-size: 2em;
+}
+/*# sourceMappingURL=AboutMe.css.map */

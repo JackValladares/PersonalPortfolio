@@ -1,0 +1,37 @@
+@import '../Global Styling/Variables.less';
+
+.navBar{
+  display: flex;
+  justify-content: center;
+
+
+  .navButtonHolder{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+
+    .navButton{
+      background-color: @button-background-color;
+      border-color: @button-border-color;
+      color: @button-text-color;
+
+      width: 20%;
+      transition: background-color .5s ease;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      user-select: none;
+
+      &:hover{
+        background-color: @button-border-color;
+        border-color: @button-background-color;
+      }
+
+    }
+  }
+}
