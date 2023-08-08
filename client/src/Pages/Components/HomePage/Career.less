@@ -1,0 +1,98 @@
+@import '../../Global Styling/Variables.less';
+
+.careerSection {
+  background-color: @secondary-background-color;
+  min-height: 1000px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+
+  .tabHolder {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+    div{
+      margin-bottom: 10px;
+    }
+  }
+
+  .jobTab {
+    .selected {
+
+    }
+  }
+
+  .jobDetails {
+    background: @secondary-background-color;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    transition: all 0.3s ease;
+    height: 650px;
+
+    .jobHeader {
+      border-bottom: 2px solid @secondary-text-color;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
+    }
+
+    .jobName {
+      font-size: 28px;
+      color: @primary-color;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .jobTitle {
+      font-size: 20px;
+      color: @light-text-color;
+      font-weight: 600;
+      margin: 5px 0;
+    }
+
+    .jobDate {
+      font-size: 20px;
+      color:@light-text-color;
+      font-weight: 500;
+      margin: 5px 0;
+    }
+
+    .jobBody {
+      color: #333;
+      font-family: Arial, sans-serif;
+      border-radius: 10px;
+
+      .jobList {
+        max-width: 800px;
+        margin: 0 auto;
+        border-radius: 5px;
+
+        p {
+          color: @primary-text-color; // Defined below
+          font-weight: 500;
+          margin-bottom: 15px;
+          text-align: left ;
+        }
+
+        ul {
+          list-style-type: disc;
+          margin-left: 20px;
+          text-align: left;
+        }
+
+        li {
+          color: @primary-text-color; // Defined below
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    .jobBlurb {
+      margin-top: 10px;
+      color: #444;
+    }
+
+    // Local variables for the job sectio
+  }
+}

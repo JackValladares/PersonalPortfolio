@@ -1,15 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.04e916db.js",
-    "static/js/787.b1dacd04.chunk.js": "/static/js/787.b1dacd04.chunk.js",
+    "main.js": "/static/js/main.dbfcf109.js",
+    "static/js/529.6ae5d79d.chunk.js": "/static/js/529.6ae5d79d.chunk.js",
+    "static/media/RoomMate.png": "/static/media/RoomMate.6338264195b0ba0b72af.png",
+    "static/media/Myself.png": "/static/media/Myself.3569ef5825aad145868d.png",
+    "static/media/GTLogo.png": "/static/media/GTLogo.23804268a6a83c8a4eed.png",
+    "static/media/Treeversal.png": "/static/media/Treeversal.f91caf4e19886f94d174.png",
+    "static/media/AdminPanel.png": "/static/media/AdminPanel.eef785798677bf2c8632.png",
+    "static/media/GNETs.png": "/static/media/GNETs.191372e576ea41d454c6.png",
+    "static/media/Everspark.png": "/static/media/Everspark.55f407509a576fae6d95.png",
+    "static/media/GCSULogo.png": "/static/media/GCSULogo.246b0a3ea359c4628723.png",
     "index.html": "/index.html",
     "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.04e916db.js.map": "/static/js/main.04e916db.js.map",
-    "787.b1dacd04.chunk.js.map": "/static/js/787.b1dacd04.chunk.js.map"
+    "main.dbfcf109.js.map": "/static/js/main.dbfcf109.js.map",
+    "529.6ae5d79d.chunk.js.map": "/static/js/529.6ae5d79d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.04e916db.js"
+    "static/js/main.dbfcf109.js"
   ]
 }

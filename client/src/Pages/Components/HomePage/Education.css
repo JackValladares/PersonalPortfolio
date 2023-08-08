@@ -1,0 +1,62 @@
+.educationSection {
+  background-color: #0E141B;
+}
+.educationSection .tabHolder {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.educationSection .schoolDetails {
+  background-color: #0E141B;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  transition: all 0.3s ease;
+  height: 615px;
+}
+.educationSection .schoolDetails .schoolHeader {
+  border-bottom: 2px solid #0267d2;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+.educationSection .schoolDetails .schoolName {
+  font-size: 28px;
+  color: #0267d2;
+  font-weight: bold;
+  margin: 0;
+}
+.educationSection .schoolDetails .schoolDegree {
+  font-size: 20px;
+  color: #b6b6b6;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.educationSection .schoolDetails .schoolBody {
+  color: #b6b6b6;
+}
+.educationSection .schoolDetails .schoolBody .schoolSubject,
+.educationSection .schoolDetails .schoolBody .schoolConcentration,
+.educationSection .schoolDetails .schoolBody .schoolDates {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.educationSection .schoolDetails .schoolBody .schoolConcentration {
+  font-style: italic;
+  color: #579df5;
+}
+.educationSection .schoolDetails .schoolAchievements {
+  margin: 20px 0;
+}
+.educationSection .schoolDetails .schoolAchievements h3 {
+  color: #0267d2;
+  font-size: 20px;
+}
+.educationSection .schoolDetails .schoolAchievements ul {
+  list-style: none;
+}
+.educationSection .schoolDetails .schoolBlurb {
+  margin-top: 10px;
+  color: #b6b6b6;
+}
+/*# sourceMappingURL=Education.css.map */

@@ -1,0 +1,49 @@
+.projectTile {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 80px;
+  align-items: center;
+}
+.projectTile .projectImage {
+  width: 400px;
+  aspect-ratio: 5/3;
+  background-color: red;
+  transition: all 0.5s ease;
+  filter: saturate(300%) brightness(70%);
+}
+.projectTile .projectImage:hover {
+  scale: 1.2;
+  filter: saturate(300%) brightness(100%);
+}
+.projectTile .projectText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 52px;
+}
+.projectTile .projectText .projectTitle {
+  text-align: right;
+  color: #0267d2;
+  left: -100px;
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+}
+.projectTile .projectText .projectDescription {
+  background-color: #0E141B;
+  text-align: right;
+  min-height: 100px;
+  left: -100px;
+  width: 450px;
+  position: relative;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+.projectTile .projectText .projectTools {
+  display: flex;
+  left: -100px;
+  position: relative;
+  justify-content: right;
+}
+/*# sourceMappingURL=Project.css.map */

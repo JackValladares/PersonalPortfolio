@@ -1,9 +1,10 @@
 import {useState} from "react";
-import NavBar from './Components/Navbar';
-import AboutMe from './Components/AboutMe';
-import Education from './Components/Education';
-import Career from './Components/Career';
-import MyProjects from './Components/MyProjects/MyProjects'
+import NavBar from './Components/HomePage/Navbar';
+import AboutMe from './Components/HomePage/AboutMe';
+import Education from './Components/HomePage/Education';
+import Career from './Components/HomePage/Career';
+import MyProjects from './Components/HomePage/MyProjects/MyProjects'
+import UserComponent from "./Components/Login/userComponent";
 function HomePage(){
     return(
         <div>
@@ -11,6 +12,7 @@ function HomePage(){
             <Career />
             <MyProjects />
             <Education />
+            <UserComponent />
 
         </div>
     );

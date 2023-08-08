@@ -1,0 +1,30 @@
+.navBar {
+  display: flex;
+  justify-content: center;
+}
+.navBar .navButtonHolder {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  width: 100%;
+}
+.navBar .navButtonHolder .navButton {
+  background-color: #0260c4;
+  border-color: #007BFF;
+  color: #FFFFFF;
+  width: 20%;
+  transition: background-color 0.5s ease;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  user-select: none;
+}
+.navBar .navButtonHolder .navButton:hover {
+  background-color: #007BFF;
+  border-color: #0260c4;
+}
+/*# sourceMappingURL=Navbar.css.map */
