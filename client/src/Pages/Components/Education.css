@@ -1,34 +1,62 @@
 .educationSection {
-  background-color: #a1a1a1;
-  height: 500px;
+  background-color: #0E141B;
 }
-.educationSection .sectionTitle {
-  font-size: 2em;
+.educationSection .tabHolder {
   display: flex;
-  justify-content: left;
-  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.educationSection .schoolDetails {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  transition: all 0.3s ease;
+  height: 615px;
+}
+.educationSection .schoolDetails .schoolHeader {
+  border-bottom: 2px solid #0267d2;
+  padding-bottom: 15px;
   margin-bottom: 20px;
 }
-.educationSection .buttonHolder {
-  display: flex;
-  justify-content: flex-start;
-  height: 20%;
+.educationSection .schoolDetails .schoolName {
+  font-size: 28px;
+  color: #0267d2;
+  font-weight: bold;
+  margin: 0;
 }
-.educationSection .buttonHolder .button {
-  border: 2px solid #007BFF;
-  transition: background-color 0.5s ease;
+.educationSection .schoolDetails .schoolDegree {
+  font-size: 20px;
+  color: #555;
+  font-weight: 600;
+  margin: 5px 0;
 }
-.educationSection .buttonHolder .button.selected {
-  background-color: #0260c4;
+.educationSection .schoolDetails .schoolBody {
+  color: #333;
 }
-.educationSection .buttonHolder .button:hover {
-  background-color: #0260c4;
+.educationSection .schoolDetails .schoolBody .schoolSubject,
+.educationSection .schoolDetails .schoolBody .schoolConcentration,
+.educationSection .schoolDetails .schoolBody .schoolDates {
+  font-size: 18px;
+  margin: 10px 0;
 }
-.educationSection .buttonHolder div {
-  height: 100%;
-  margin-right: 20px;
+.educationSection .schoolDetails .schoolBody .schoolConcentration {
+  font-style: italic;
+  color: #579df5;
 }
-.educationSection .buttonHolder div img {
-  height: 100%;
+.educationSection .schoolDetails .schoolAchievements {
+  margin: 20px 0;
+}
+.educationSection .schoolDetails .schoolAchievements h3 {
+  color: #0267d2;
+  font-size: 20px;
+}
+.educationSection .schoolDetails .schoolAchievements ul {
+  list-style: none;
+}
+.educationSection .schoolDetails .schoolBlurb {
+  margin-top: 10px;
+  color: #444;
 }
 /*# sourceMappingURL=Education.css.map */

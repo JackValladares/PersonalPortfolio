@@ -2,44 +2,84 @@
 
 .educationSection{
   background-color: @secondary-background-color;
-  height: 500px;
 
-  .sectionTitle{
-    font-size: 2em;
+
+  .tabHolder{
     display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-bottom: 20px;
+    justify-content: center;
+    margin-bottom: 2em;
   }
 
-  .buttonHolder{
-    display: flex;
-    justify-content: flex-start;
+  .schoolTab{
+    .selected{
 
-    height: 20%;
+    }
+  }
 
 
 
-    .button{
-      border: 2px solid @button-border-color;
-      transition: background-color .5s ease;
+  .schoolDetails {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    transition: all 0.3s ease;
+    height: 615px;
 
-    &.selected{
-      background-color: @button-background-color;
+    .schoolHeader {
+      border-bottom: 2px solid @primary-color;
+      padding-bottom: 15px;
+      margin-bottom: 20px;
     }
 
-      &:hover{
-        background-color: @button-background-color;
+    .schoolName {
+      font-size: 28px;
+      color: @primary-color;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .schoolDegree {
+      font-size: 20px;
+      color: @secondary-text-color;
+      font-weight: 600;
+      margin: 5px 0;
+    }
+
+    .schoolBody {
+      color: #333;
+
+      .schoolSubject,
+      .schoolConcentration,
+      .schoolDates {
+        font-size: 18px;
+        margin: 10px 0;
+      }
+
+      .schoolConcentration {
+        font-style: italic;
+        color: @light-text-color;
       }
     }
 
-    div{
-      height: 100%;
-      margin-right: 20px;
+    .schoolAchievements {
+      margin: 20px 0;
 
-      img{
-        height: 100%;
+      h3 {
+        color: @primary-color;
+        font-size: 20px;
+      }
+
+      ul{
+        list-style: none;
       }
     }
+
+    .schoolBlurb {
+      margin-top: 10px;
+      color: #444;
+    }
   }
+
 }

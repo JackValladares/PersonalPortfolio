@@ -1,5 +1,5 @@
 body {
-  background-color: #F4F4F4;
+  background-color: #182229;
 }
 .container {
   padding-left: 10%;
@@ -9,5 +9,19 @@ body {
 }
 h2 {
   font-size: 3em;
+}
+.sectionTitle {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.sectionTitle.secondary {
+  color: #E60B6F;
+}
+.sectionTitle.primary {
+  color: #0267d2;
+}
+.sineEffect {
+  background-color: #0E141B;
 }
 /*# sourceMappingURL=Global.css.map */

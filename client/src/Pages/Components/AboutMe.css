@@ -4,6 +4,7 @@
 }
 .aboutMe .imgMyself {
   width: 35%;
+  aspect-ratio: 1;
 }
 .aboutMe .aboutMeBlurb {
   width: 50%;
@@ -12,6 +13,10 @@
   justify-content: center;
   text-align: left;
   margin-left: 20px;
+  color: #b6b6b6;
+}
+.aboutMe .aboutMeBlurb .aboutMeTitle {
+  color: #0267d2;
 }
 .aboutMe .aboutMeBlurb .aboutMeParagraph {
   font-size: 2em;

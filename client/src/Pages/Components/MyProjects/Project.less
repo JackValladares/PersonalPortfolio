@@ -1,0 +1,58 @@
+@import '../../Global Styling/Variables.less';
+
+.projectTile{
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin-bottom: 80px;
+  align-items: center;
+
+  .projectImage{
+    width: 400px;
+    aspect-ratio: 5/3;
+    background-color: red;
+    transition: all .5s ease;
+    filter: saturate(300%) brightness(70%);
+    &:hover{
+      scale: 1.2;
+      filter: saturate(300%) brightness(100%);
+    }
+  }
+
+  .projectText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 52px;
+
+    .projectTitle{
+      text-align: right;
+      color: @primary-color;
+      left: -100px;
+      position: relative;
+      margin-bottom: 30px;
+      font-size: 1.8rem;
+    }
+
+    .projectDescription{
+      background-color: @secondary-background-color;
+      text-align: right;
+      min-height: 100px;
+      left: -100px;
+      width: 450px;
+      position: relative;
+      font-size: 1.2rem;
+      padding: 20px;
+
+
+
+    }
+
+    .projectTools{
+      display: flex;
+      left: -100px;
+      position: relative;
+      justify-content: right;
+    }
+  }
+}
